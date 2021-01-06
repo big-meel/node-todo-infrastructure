@@ -16,6 +16,14 @@ Node provides the RESTful API. Angular provides the frontend and accesses the AP
 3. Start the server: `DB_URL="{your mongo connection url}" node server.js`
 4. View in browser at `http://localhost:8080`
 
+## Configuration
+
+The following environment variables are used to configure the app:
+
+`PORT` The port that the HTTP server listens on. Defaults to 8080. Not considered a sensitive secret.
+
+`DB_URL` The MongoDB database connection string. Defaults to `mongodb://localhost/meanstacktutorials`. Considered a sensitive secret because it may contain authentication credentials (`mongodb://user:password@localhost/meanstacktutorials`).
+
 ## Tutorial Series
 
 This repo corresponds to the Node Todo Tutorial Series on [scotch.io](http://scotch.io)
