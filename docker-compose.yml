@@ -1,0 +1,29 @@
+version: "3.7"
+services:
+
+  mongodb:
+    image: mongo
+    ports: 
+      - "27017:27017"
+    networks:
+      - todo-app
+
+  node-todo:
+    image: bigmeel94/node-todo
+    container_name: node-todo
+    ports: 
+      - "8080:8080"
+    depends_on: 
+      - mongodb
+    networks:
+      - todo-app
+    environment:
+      - "DB_URL://mongodb:27017"
+
+networks:
+  todo-app:
+    driver: bridge
+
+
+
+

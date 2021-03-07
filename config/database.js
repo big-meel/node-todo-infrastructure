@@ -1,3 +1,3 @@
 module.exports = {
-    url: process.env.DB_URL || 'mongodb://localhost/meanstacktutorials'
+    url: process.env.DB_URL || 'mongodb://localhost:27017'
 };
