@@ -7,9 +7,9 @@ Implementation of an infrastructure running a Node.js Todo app
 ### Setup Docker Compose
 
 1. Clone repo & run dependencies
-`git clone https://github.com/big-meel/node-todo-infrastructure`
-`cd node-todo`
-`npm install`
+ - `git clone https://github.com/big-meel/node-todo-infrastructure`
+ - `cd node-todo`
+ - `npm install`
 
 2. For this test the `docker pull bigmeel94/node-todo` for the pre-built image outlined in
 the `docker-compose.yml`, node-tod service. 
