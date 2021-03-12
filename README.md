@@ -17,7 +17,7 @@ NOTE: The `npm install` command is included should you wish to install dependenc
 The Docker Images created in the proceeding step with have all the necessary dependencies and variables containerized, hence the
 command is unnecessary.
  
-2. For this test the `docker pull bigmeel94/node-todo` for the pre-built image outlined in
+2. Run `docker pull bigmeel94/node-todo` for the pre-built image outlined in
 the `docker-compose.yml`, node-tod service. 
 
 Should you need to modify the Dockerfile then you may use `docker build -t image-name .` to create
