@@ -11,6 +11,10 @@ Implementation of an infrastructure running a Node.js Todo app
  - `cd node-todo-infrastructure`
  - `npm install`
 
+NOTE: The `npm install` command is included should you wish to install dependencies locally for testing purposes.
+The Docker Images created in the proceeding step with have all the necessary dependencies and variables containerized, hence the
+command is unnecessary.
+ 
 2. For this test the `docker pull bigmeel94/node-todo` for the pre-built image outlined in
 the `docker-compose.yml`, node-tod service. 
 
