@@ -8,7 +8,7 @@ Implementation of an infrastructure running a Node.js Todo app
 
 1. Clone repo & run dependencies
  - `git clone https://github.com/big-meel/node-todo-infrastructure`
- - `cd node-todo`
+ - `cd node-todo-infrastructure`
  - `npm install`
 
 2. For this test the `docker pull bigmeel94/node-todo` for the pre-built image outlined in
