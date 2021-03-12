@@ -2,7 +2,7 @@
 Implementation of an infrastructure running a Node.js Todo app
 
 ### Prerequisites
-- Docker Engine 
+- Docker Engine (https://docs.docker.com/engine/install/)
 - Node.js
 - Docker Compose
 
