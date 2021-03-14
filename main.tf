@@ -21,3 +21,8 @@ resource "aws_instance" "ToDoApp" {
     Name = "TodoAppInstance"
   }
 }
+
+
+# Configure aws auto scaling group and policise
+
+# Configure alternative provider configurations
