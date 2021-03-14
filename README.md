@@ -2,9 +2,12 @@
 Implementation of an infrastructure running a Node.js Todo app
 
 ### Prerequisites
+#### Please ensure that the following are installed
 - Docker Engine (https://docs.docker.com/engine/install/)
 - Node.js
 - Docker Compose
+- Terraform CLI
+- AWS CLI
 
 ### Setup Docker Compose
 
