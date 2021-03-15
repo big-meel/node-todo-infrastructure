@@ -26,7 +26,10 @@ the `docker-compose.yml`, node-tod service.
 Should you need to modify the Dockerfile then you may use `docker build -t image-name .` to create
 a custom image and add it to the `node-todo` service image attribute.
 
-3. Run `docker-compose up -d` to test app.
+3. Run `docker-compose up -d` to test app. (`docker-compose down` to stop containers)
 View app on `localhost:8080`
 
+4. Initialize infrastructure with `terraform init`.
+5. Inspect Plan with `terraform plan`
+6. Deploy Infrastructure `terraform apply`
 
