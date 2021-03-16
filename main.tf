@@ -16,9 +16,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "todo-app" {
-  ami           = "ami-04f3901ef34fb506c"
+  ami           = "ami-01e7ca2ef94a0ae86"
   instance_type = "t2.micro"
-  vpc_security_group_ids = [ "aws_security_group.todo-app-sg.id" ]
+  # vpc_security_group_ids = [ "aws_security_group.todo-app-sg.id" ]
 
   tags = {
     Name = "TodoAppInstance"
