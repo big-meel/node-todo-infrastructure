@@ -15,17 +15,17 @@ provider "aws" {
   region  = "us-east-2"
 }
 
-resource "aws_instance" "ToDoApp" {
+resource "aws_instance" "todo-app" {
   ami           = "ami-04f3901ef34fb506c"
   instance_type = "t2.micro"
-  vpc_security_group_ids = [ "aws_security_group.node-sg.id" ]
+  vpc_security_group_ids = [ "aws_security_group.todo-app-sg.id" ]
 
   tags = {
     Name = "TodoAppInstance"
   }
 }
 
-resource "aws_security_group" "node-sg" {
+resource "aws_security_group" "todo-app-sg" {
   name = "jameel-sg"
   ingress {
     from_port   = 8080
